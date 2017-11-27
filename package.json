@@ -1,0 +1,14 @@
+{
+  "name": "build-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "travis-build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "travis-ping": "^1.0.2"
+  }
+}
