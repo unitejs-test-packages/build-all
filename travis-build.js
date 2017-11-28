@@ -1,7 +1,9 @@
 const travisPing = require("travis-ping");
 
 const repos = [
-    "unitejs-test-packages/va-js-packages"
+    "unitejs-test-packages/va-js-packages",
+    "unitejs-test-packages/va-ts-cjs-packages",
+    "unitejs-test-packages/va-ts-sjs-packages"
 ];
 
 console.log("Testing Branch", process.env.TRAVIS_BRANCH);
