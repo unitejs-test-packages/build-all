@@ -2,7 +2,12 @@ const travisPing = require("travis-ping");
 
 const repos = [
     "unitejs-test-packages/aurelia-packages",
-    "unitejs-test-packages/vanilla-packages"
+    "unitejs-test-packages/angular-packages",
+    "unitejs-test-packages/polymer-packages",
+    "unitejs-test-packages/preact-packages",
+    "unitejs-test-packages/react-packages",
+    "unitejs-test-packages/vanilla-packages",
+    "unitejs-test-packages/vue-packages"
 ];
 
 console.log("Testing Branch", process.env.TRAVIS_BRANCH);
